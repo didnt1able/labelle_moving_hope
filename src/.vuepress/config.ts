@@ -9,7 +9,6 @@ export default defineUserConfig({
   description: "Offering Comprehensive Moving Solutions for Ottawa & The Surrounding Area",
 
   theme,
-  navbar: [""],
   // Enable it with pwa
   // shouldPrefetch: false,
  

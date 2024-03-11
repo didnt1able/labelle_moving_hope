@@ -6,8 +6,8 @@ export default sidebar({
     {
       text: "Prices",
       icon: "dollar",
-      prefix: "/prices/",
-      link: "/prices/",
+      prefix: "/prices.md",
+      link: "/prices.md",
       children: "structure",
     },
     {

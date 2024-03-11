@@ -29,10 +29,6 @@ export default hopeTheme({
       link: "/booking.md",
       icon: "book",
       },
-      {text: "Prices",
-      link: "/prices/",
-      icon: "dollar",
-    }
   ],
   
   favicon: "/assets/icon/favicon.ico",
