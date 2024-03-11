@@ -19,8 +19,15 @@ export default hopeTheme({
   docsDir: "src",
 
   // navbar
-  navbar,
-
+  navbar: [
+    {
+      text: "Booking",
+      link: "/pages/booking.md",
+      icon: "book",
+      // only active in `/guide/`
+    }
+  ],
+  
   favicon: "/assets/icon/favicon.ico",
 
   footer: "Default footer",
