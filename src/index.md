@@ -177,6 +177,6 @@ highlights:
   #       details: Read through blog posts in a timeline
   #       link: https://theme-hope.vuejs.press/guide/blog/timeline.html
 
-copyright: false
-footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
+copyright: If you're on the move, Labelle Moving will get you there.
+footer: 2024 Labelle Moving  
 ---

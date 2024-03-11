@@ -1,8 +1,10 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
+import sidebar from "./sidebar.js";
+
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://labellemoving.com",
 
   author: {
     name: "Mr.Hope",
@@ -18,13 +20,18 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  sidebar,
+
   // navbar
   navbar: [
     {
       text: "Booking",
-      link: "/pages/booking.md",
+      link: "/booking.md",
       icon: "book",
-      // only active in `/guide/`
+      },
+      {text: "Prices",
+      link: "/prices/",
+      icon: "dollar",
     }
   ],
   
@@ -40,19 +47,19 @@ export default hopeTheme({
   //  },
   //},
 
-  metaLocales: {
-    editLink: "Edit this page on GitHub",
-  },
+  //metaLocales: {
+  //  editLink: "Edit this page on GitHub",
+  //},
 
   plugins: {
     // You should generate and use your own comment service
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+   // comment: {
+   //   provider: "Giscus",
+   //   repo: "vuepress-theme-hope/giscus-discussions",
+   //   repoId: "R_kgDOG_Pt2A",
+   //   category: "Announcements",
+   //   categoryId: "DIC_kwDOG_Pt2M4COD69",
+   // },
 
     components: {
       components: ["Badge", "VPCard"],
