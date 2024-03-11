@@ -221,51 +221,53 @@ export default {
             this.formatPhoneNumber(event);
             this.checkInput(event);
         }
-    }
-
-
-
-}
-$('#bootstrapForm').submit(function (event) {
-    event.preventDefault()
-    var extraData = {}
-    {
-        /* Parsing input date id=839232848 */
-        var dateField = $("#839232848_date").val()
-        var timeField = $("#839232848_time").val()
-        let d = new Date(dateField)
-        if (!isNaN(d.getTime())) {
-            extraData["entry.839232848_year"] = d.getFullYear()
-            extraData["entry.839232848_month"] = d.getMonth() + 1
-            extraData["entry.839232848_day"] = d.getUTCDate()
-        }
-        if (timeField && timeField.split(':').length >= 2) {
-            let values = timeField.split(':')
-            extraData["entry.839232848_hour"] = values[0]
-            extraData["entry.839232848_minute"] = values[1]
-        }
-    }
-    {
-        // Parsing input time id=2146346979
-        var field = $("#2146346979").val()
-        if (field) {
-            var values = field.split(':')
-            extraData["entry.2146346979_hour"] = values[0]
-            extraData["entry.2146346979_minute"] = values[1]
-            extraData["entry.2146346979_second"] = values[2]
-        } 
-    }
-    $('#bootstrapForm').ajaxSubmit({
-        data: extraData,
-        dataType: 'jsonp',  
-        error: function () {
-           
-            alert('Form Submitted. Thanks.')
-
-        }
-    })
     
-})
+    },
+    mounted() {
+        if (process.browser) {
+            const $ = require('jquery');
+            $('#bootstrapForm').submit(function (event) {
+                event.preventDefault();
+                var extraData = {};
+                {
+                    /* Parsing input date id=839232848 */
+                    var dateField = $("#839232848_date").val();
+                    var timeField = $("#839232848_time").val();
+                    let d = new Date(dateField);
+                    if (!isNaN(d.getTime())) {
+                        extraData["entry.839232848_year"] = d.getFullYear();
+                        extraData["entry.839232848_month"] = d.getMonth() + 1;
+                        extraData["entry.839232848_day"] = d.getUTCDate();
+                    }
+                    if (timeField && timeField.split(':').length >= 2) {
+                        let values = timeField.split(':');
+                        extraData["entry.839232848_hour"] = values[0];
+                        extraData["entry.839232848_minute"] = values[1];
+                    }
+                }
+                {
+                    // Parsing input time id=2146346979
+                    var field = $("#2146346979").val();
+                    if (field) {
+                        var values = field.split(':');
+                        extraData["entry.2146346979_hour"] = values[0];
+                        extraData["entry.2146346979_minute"] = values[1];
+                        extraData["entry.2146346979_second"] = values[2];
+                    } 
+                }
+                $('#bootstrapForm').ajaxSubmit({
+                    data: extraData,
+                    dataType: 'jsonp',  
+                    error: function () {
+                        alert('Form Submitted. Thanks.');
+                    }
+                });
+            });
+        }
+    }
+}
+
+
 
 </script>
 
