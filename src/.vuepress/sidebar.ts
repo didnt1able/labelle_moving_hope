@@ -1,7 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
- // "/": [
+  "/": [
   //  "",
     // {
     //   text: "Demo",
@@ -21,5 +21,5 @@ export default sidebar({
     //   icon: "person-chalkboard",
     //   link: "https://plugin-md-enhance.vuejs.press/guide/content/revealjs/demo.html",
     // },
- // ],
+  ],
 });
