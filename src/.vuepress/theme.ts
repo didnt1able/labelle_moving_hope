@@ -26,6 +26,12 @@ export default hopeTheme({
       link: "/booking.md",
       icon: "book",
       // only active in `/guide/`
+    },
+    {
+      text: "Prices",
+      link: "/prices.md",
+      icon: "dollar",
+      // only active in `/guide/`
     }
   ],
   
