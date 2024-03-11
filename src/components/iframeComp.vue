@@ -199,6 +199,7 @@
 <script>
 import $ from 'jquery';
 import 'jquery-form';
+
 export default {
     methods: {
         checkInput(event) {
@@ -297,7 +298,6 @@ fieldset {
 /* Styles for the legends */
 legend {
     font-size: 1.2em;
-    font-weight: bold;
     margin-bottom: 10px;
 }
 
