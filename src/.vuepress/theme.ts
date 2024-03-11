@@ -28,7 +28,9 @@ export default hopeTheme({
       text: "Booking",
       link: "/booking.md",
       icon: "book",
-      },
+      
+      // only active in `/guide/`
+    }
   ],
   
   favicon: "/assets/icon/favicon.ico",
