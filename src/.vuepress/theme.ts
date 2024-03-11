@@ -1,5 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
+import sidebar from "./sidebar.js";
+
 
 
 export default hopeTheme({
@@ -18,7 +20,7 @@ export default hopeTheme({
   repoDisplay: false,
 
   docsDir: "src",
-
+  sidebar,
   // navbar
   navbar: [
     {
