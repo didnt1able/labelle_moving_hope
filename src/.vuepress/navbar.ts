@@ -2,7 +2,7 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
     {
-        text: "Booking",
+        text: "Get a Quote Now!",
         link: "/booking.md",
         icon: "book",
         // only active in `/guide/`
