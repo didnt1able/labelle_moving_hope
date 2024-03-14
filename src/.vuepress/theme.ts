@@ -1,5 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar.js";
+import { navbar } from "vuepress-theme-hope";
 import sidebar from "./sidebar.js";
 
 
@@ -25,7 +25,7 @@ export default hopeTheme({
   // navbar
   navbar: [
     {
-      text: "Booking",
+      text: "Get a Quote Now!",
       link: "/booking.md",
       icon: "book",
       // only active in `/guide/`

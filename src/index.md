@@ -72,7 +72,7 @@ highlights:
 
       - title: Long-Distance Moves
         icon: fab fa-canadian-maple-leaf
-        details: Trust us for province relocations.
+        details: Trust us for cross province relocations.
         link: https://theme-hope.vuejs.press/guide/markdown/hint.html
 
       - title: Senior Moves
