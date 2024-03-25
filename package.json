@@ -18,6 +18,9 @@
     "vue": "^3.4.21",
     "vuepress": "2.0.0-rc.8",
     "vuepress-theme-hope": "2.0.0-rc.29",
-    "vuetify": "^3.5.8"
+    "vuetify": "^3.5.11"
+  },
+  "dependencies": {
+    "mathjax-full": "^3.2.2"
   }
 }
