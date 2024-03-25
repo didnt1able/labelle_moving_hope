@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { navbar } from "vuepress-theme-hope";
 import sidebar from "./sidebar.js";
+
 
 
 
@@ -97,6 +97,9 @@ export default hopeTheme({
       sup: true,
       tabs: true,
       vPre: true,
+      alert: true,
+      hint: true,
+
 
       // install chart.js before enabling it
       // chart: true,
@@ -110,7 +113,7 @@ export default hopeTheme({
       // flowchart: true,
 
       // gfm requires mathjax-full to provide tex support
-      // gfm: true,
+       gfm: true,
 
       // install katex before enabling it
       // katex: true,

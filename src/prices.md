@@ -18,12 +18,16 @@ next: false
 comment: false
 copyright: If you're on the move, Labelle Moving will get you there.
 footer: 2024 Labelle Moving  
+hint: true
 
 
 ---
 
+::: tip 1 Hour Surcharge Applies 
+:::
 
 ## With Truck
+
 
  * **1 Mover/s** 
     - 90$/H
