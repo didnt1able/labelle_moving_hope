@@ -3,8 +3,8 @@ home: true
 icon: home
 title: Labelle Moving
 heroImage: "/assets/icon/icon.webp"
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+bgImage: /bg/6-light.svg
+bgImageDark: /bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: Labelle Moving
