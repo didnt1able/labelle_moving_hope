@@ -28,8 +28,8 @@ actions:
 highlights:
   - header: Locally Owned & Operated 
     image: /assets/image/mapleleaf.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
+    bgImage: /bg/3-light.svg
+    bgImageDark: /bg/3-dark.svg
     highlights:
       - title: Local Expertise
         details: As a locally owned business, we understand the unique challenges of moving within Ottawa. Our team knows the neighborhoods, traffic patterns, and logistics, ensuring a smooth transition for you
@@ -41,8 +41,8 @@ highlights:
   - header: Professional Packers
     description: Tailor our packing services to your unique needs.
     image: /assets/image/trolley.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
+    bgImage: /bg/4-light.svg
+    bgImageDark: /bg/4-dark.svg
     highlights:
       - title: Safe
         icon: fas fa-helmet-safety
@@ -59,8 +59,8 @@ highlights:
 
   - header: Residential Moves
     image: /assets/image/mailbox.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    bgImage: /bg/2-light.svg
+    bgImageDark: /bg/2-dark.svg
     bgImageStyle:
       background-repeat: repeat
       background-size: initial
@@ -68,22 +68,22 @@ highlights:
       - title: Local Moves
         icon: fas fa-map-location-dot
         details: From apartments to houses, we handle local moves with precision
-        link: https://theme-hope.vuejs.press/guide/markdown/others.html#link-check
+        link: /prices.html
 
       - title: Long-Distance Moves
         icon: fab fa-canadian-maple-leaf
         details: Trust us for cross province relocations.
-        link: https://theme-hope.vuejs.press/guide/markdown/hint.html
+        link: /prices.html
 
       - title: Senior Moves
         icon: fas fa-person-cane
         details: Compassionate assistance for seniors transitioning to a new home.
-        link: https://theme-hope.vuejs.press/guide/markdown/alert.html
+        link: /prices.html
 
       - title: Student Moves
         icon: school
         details: Efficient moving solutions for students.
-        link: https://theme-hope.vuejs.press/guide/markdown/tabs.html
+        link: /prices.html
 
   # - header: Improved layouts
   #   description: An awesome responsive layout with full a11y support.
