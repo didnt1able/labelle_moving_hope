@@ -13,12 +13,6 @@ devDependencies:
   '@vuepress/bundler-vite':
     specifier: 2.0.0-rc.9
     version: 2.0.0-rc.9
-  jquery:
-    specifier: ^3.7.1
-    version: 3.7.1
-  jquery-form:
-    specifier: ^4.3.0
-    version: 4.3.0
   swiper:
     specifier: ^11.1.1
     version: 11.1.1
@@ -1934,16 +1928,6 @@ packages:
 
   /isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
-    dev: true
-
-  /jquery-form@4.3.0:
-    resolution: {integrity: sha512-q3uaVCEWdLOYUCI6dpNdwf/7cJFOsUgdpq6r0taxtGQ5NJSkOzofyWm4jpOuJ5YxdmL1FI5QR+q+HB63HHLGnQ==}
-    dependencies:
-      jquery: 3.7.1
-    dev: true
-
-  /jquery@3.7.1:
-    resolution: {integrity: sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==}
     dev: true
 
   /js-yaml@3.14.1:

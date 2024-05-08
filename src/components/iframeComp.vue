@@ -197,8 +197,7 @@
 </template>
 
 <script>
-import $ from 'jquery';
-import 'jquery-form';
+
 
 export default {
     methods: {
@@ -222,12 +221,23 @@ export default {
             this.formatPhoneNumber(event);
             this.checkInput(event);
         }
-    
     },
-    mounted() {
-        if (process.browser) {
-            const $ = require('jquery');
-            $('#bootstrapForm').submit(function (event) {
+        mounted() {
+        let script = document.createElement('script');
+        script.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js";
+        script.onload = () => {
+            let scriptForm = document.createElement('script');
+            scriptForm.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js";
+            scriptForm.onload = () => {
+                this.initJQuery();
+            };
+            document.body.appendChild(scriptForm);
+        };
+        document.body.appendChild(script);
+    },
+    methods: {
+        initJQuery() {
+              $('#bootstrapForm').submit(function (event) {
                 event.preventDefault();
                 var extraData = {};
                 {
