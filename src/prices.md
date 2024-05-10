@@ -7,6 +7,7 @@ category:
 tag:
   - Prices
 
+sidebar: false
 
 breadcrumb: false
 pageInfo: false
@@ -16,44 +17,56 @@ lastUpdated: false
 prev: false
 next: false
 comment: false
-copyright: If you're on the move, Labelle Moving will get you there.
-footer: 2024 Labelle Moving  
-hint: true
+copyright: © 2024 Labelle Moving
+footer: <a href="tel:613-295-8577">613-295-8577</a> <br></br> <a href="mailto:info@labellemoving.com">info@labellemoving.com</a>
+hint: false
+
 
 
 ---
 
-::: tip 1 Hour Surcharge Applies 
+::: important 1 Hour Surcharge Applies 
 :::
 
-## With Truck
+ With Truck
 
+::: tabs#With Truck
 
- * **1 Mover/s** 
-    - 90$/H
+@tab 1 Mover
 
- * **2 Mover/s** 
-    - 120$/H
+90$/h
 
- * **3 Mover/s** 
-    - 150$/h
+@tab 2 Movers
 
-* **4 Mover/s** 
-    - 180$/H
+120$/h
 
-## Moving Help
+@tab 3 Movers
 
- * **1 Mover/s** 
-    - 50$/H
+150$/h
 
- * **2 Mover/s** 
-    - 80$/H
+@tab 4 Movers
 
- * **3 Mover/s** 
-    - 110$/h
+180$/h
 
-* **4 Mover/s** 
-    - 140$/H
+:::
+ Without Truck
 
+::: tabs#With Truck
 
+@tab 1 Mover
 
+50$/h
+
+@tab 2 Movers
+
+80$/h
+
+@tab 3 Movers
+
+110$/h
+
+@tab 4 Movers
+
+140$/h
+
+:::

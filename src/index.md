@@ -85,6 +85,7 @@ highlights:
         details: Efficient moving solutions for students.
         link: /prices.html
 
+
   # - header: Improved layouts
   #   description: An awesome responsive layout with full a11y support.
   #   image: /assets/image/layout.svg
@@ -177,6 +178,7 @@ highlights:
   #       details: Read through blog posts in a timeline
   #       link: https://theme-hope.vuejs.press/guide/blog/timeline.html
 
-copyright: If you're on the move, Labelle Moving will get you there.
-footer: 2024 Labelle Moving  
+
+copyright: © 2024 Labelle Moving
+footer: <a href="tel:613-295-8577">613-295-8577</a> <br></br> <a href="mailto:info@labellemoving.com">info@labellemoving.com</a>
 ---

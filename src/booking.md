@@ -17,8 +17,8 @@ lastUpdated: false
 prev: false
 next: false
 comment: false
-copyright: If you're on the move, Labelle Moving will get you there.
-footer: 2024 Labelle Moving  
+copyright: © 2024 Labelle Moving
+footer: <a href="tel:613-295-8577">613-295-8577</a> <br></br> <a href="mailto:info@labellemoving.com">info@labellemoving.com</a> 
 
 ---
 <iframeComp ></iframeComp>
