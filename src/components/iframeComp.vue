@@ -198,30 +198,8 @@
 
 <script>
 
-
 export default {
-    methods: {
-        checkInput(event) {
-        const regexPattern = /^\d{3}-\d{3}-\d{4}$/;
-    // Do something when the input matches the pattern
-         if (regexPattern.test(event.target.value)) {
-        // Input matches the pattern, do nothing or perform some other action
-        }
-    },
-        formatPhoneNumber(event) {
-        let input = event.target.value.replace(/\D/g,''); // Remove all non-digits
-        if (input.length > 3 && input.length <= 6)
-            input = input.replace(/(\d{3})(\d{1,3})/, "$1-$2");
-        else if (input.length > 6)
-            input = input.replace(/(\d{3})(\d{3})(\d{1,4})/, "$1-$2-$3");
-        event.target.value = input;
-    },
 
-        handleInput(event) {
-            this.formatPhoneNumber(event);
-            this.checkInput(event);
-        }
-    },
         mounted() {
         let script = document.createElement('script');
         script.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js";
@@ -274,8 +252,31 @@ export default {
                     }
                 });
             });
+            
         }
-    }
+    },
+    methods: {
+        checkInput(event) {
+        const regexPattern = /^\d{3}-\d{3}-\d{4}$/;
+    // Do something when the input matches the pattern
+         if (regexPattern.test(event.target.value)) {
+        // Input matches the pattern, do nothing or perform some other action
+        }
+    },
+        formatPhoneNumber(event) {
+        let input = event.target.value.replace(/\D/g,''); // Remove all non-digits
+        if (input.length > 3 && input.length <= 6)
+            input = input.replace(/(\d{3})(\d{1,3})/, "$1-$2");
+        else if (input.length > 6)
+            input = input.replace(/(\d{3})(\d{3})(\d{1,4})/, "$1-$2-$3");
+        event.target.value = input;
+    },
+
+        handleInput(event) {
+            this.formatPhoneNumber(event);
+            this.checkInput(event);
+        }
+    },
 }
 
 
@@ -290,12 +291,7 @@ export default {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box; /* Add this line */
-
-
-    
-
-
+    box-sizing: border-box;
 }
 
 /* Styles for the fieldsets */
@@ -319,19 +315,16 @@ legend {
     margin-bottom: 10px;
 }
 
-
 /* Styles for the form controls */
 .form-control {
     width: 100%;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    resize: none; /* Prevent resizing */
+    resize: none;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box; /* Add this line */
-
-
+    box-sizing: border-box;
 }
 
 /* Styles for the radio buttons */
@@ -353,10 +346,40 @@ legend {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .btn:hover {
     background-color: #0056b3;
 }
 
+/* Responsive styles for tablets */
+@media (max-width: 1024px) {
+    #bootstrapForm {
+        padding: 15px;
+    }
+
+    .form-control {
+        padding: 15px;
+    }
+
+    .btn {
+        padding: 7px 15px;
+    }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    #bootstrapForm {
+        padding: 10px;
+    }
+
+    .form-control {
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 5px 10px;
+    }
+}
 </style>
