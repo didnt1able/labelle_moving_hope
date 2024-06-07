@@ -11,7 +11,7 @@ export default defineUserConfig({
 
   theme,
   // Enable it with pwa
-   shouldPrefetch: false,
+   shouldPrefetch: true,
   
   // plugins: [
   //   noticePlugin({
