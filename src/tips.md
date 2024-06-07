@@ -35,7 +35,7 @@ hint: false
 <a href="https://www.cmhc-schl.gc.ca/en/professionindustry-innovation-and-leadership/industry-expertresources-for-mortgage-professionwho-notify-when-moving-change-of-address-checklist">Who to notify when you are moving checklist? 
 </a>
   <br></br>
-<a href="https://www.moving.com/tshould-you-hire-packers-for-your-next-move/">Should You Hire Professiol Packers?
+<a href="https://www.moving.com/tshould-you-hire-packers-for-your-next-move/">Should You Hire Professional Packers?
 </a>         
 
       
