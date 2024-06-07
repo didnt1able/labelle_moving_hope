@@ -7,7 +7,7 @@ category:
 tag:
   - Tips
 
-sidebar: true
+sidebar: false
 
 breadcrumb: false
 pageInfo: false
