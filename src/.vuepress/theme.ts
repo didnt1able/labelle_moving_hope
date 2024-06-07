@@ -9,8 +9,8 @@ export default hopeTheme({
   hostname: "https://labellemoving.com",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Jonathan Lefebvre",
+    url: "https://labellemoving.com",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -100,6 +100,8 @@ export default hopeTheme({
       alert: true,
       hint: true,
 
+      
+    
 
       // install chart.js before enabling it
       // chart: true,
