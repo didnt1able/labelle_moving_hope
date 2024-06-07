@@ -28,7 +28,7 @@ hint: false
 ::: important 1 Hour Surcharge Applies 
 :::
 
- With Truck
+ Moving Prices <Badge text="With"/> Truck
 
 ::: tabs#With Truck
 
@@ -49,7 +49,7 @@ hint: false
 180$/h
 
 :::
- Without Truck
+ Moving Prices <Badge text="Without"/> Truck
 
 ::: tabs#With Truck
 

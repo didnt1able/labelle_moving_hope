@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.ts";
-//import { noticePlugin } from '@vuepress/plugin-notice'
+import { noticePlugin } from '@vuepress/plugin-notice'
 
 export default defineUserConfig({
   base: "/",
@@ -11,28 +11,28 @@ export default defineUserConfig({
 
   theme,
   // Enable it with pwa
-  // shouldPrefetch: false,
+   shouldPrefetch: true,
   
-  // plugins: [
-  //   noticePlugin({
-  //     config: [
+  plugins: [
+    noticePlugin({
+      config: [
         
-  //       {
-  //         path: '/',
-  //         title: 'Notice Title',
-  //         content: 'Notice Content',
-  //         fullscreen: false,
-  //         actions: [
-  //           {
-  //             text: 'Primary Action',
-  //             link: 'https://theme-hope.vuejs.press/',
-  //             type: 'primary',
-  //           },
-  //           { text: 'Default Action' },
-  //         ],
-  //       },
-  //     ],
-  //   }),
-  // ],
+        {
+          path: '/',
+          title: 'Notice Title',
+          content: 'Notice Content',
+          fullscreen: false,
+          actions: [
+            {
+              text: 'Primary Action',
+              link: '/',
+              type: 'primary',
+            },
+            { text: 'Default Action' },
+          ],
+        },
+      ],
+    }),
+  ],
 
 });

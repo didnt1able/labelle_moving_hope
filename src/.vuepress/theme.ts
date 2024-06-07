@@ -35,6 +35,12 @@ export default hopeTheme({
       link: "/prices.md",
       icon: "dollar",
       // only active in `/guide/`
+    },
+    {
+      text: "Tips",
+      link: "/tips.md",
+      icon: "question",
+      // only active in `/guide/`
     }
   ],
   
