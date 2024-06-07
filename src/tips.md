@@ -32,10 +32,10 @@ hint: false
 <a href="https://www.consumeraffairs.com/movers/how-to-pack-for-mhtml#:~:text=Packing%20tips%20for%20moving%201%20Declutter%20before%20essentials%20separately.%20...%207%20Pack%20your%20suitcases.%20">Packtips
 </a>    
   <br></br>
-<a href="https://www.cmhc-schl.gc.ca/en/professionindustry-innovation-and-leadership/industry-expertresources-for-mortgage-professionwho-notify-when-moving-change-of-address-checklist">Who to notify wyou are moving checklist? 
+<a href="https://www.cmhc-schl.gc.ca/en/professionindustry-innovation-and-leadership/industry-expertresources-for-mortgage-professionwho-notify-when-moving-change-of-address-checklist">Who to notify when you are moving checklist? 
 </a>
   <br></br>
-<a href="https://www.moving.com/tshould-you-hire-packers-for-your-next-move/">Should You Hire ProfessioPackers?
+<a href="https://www.moving.com/tshould-you-hire-packers-for-your-next-move/">Should You Hire Professiol Packers?
 </a>         
 
       
