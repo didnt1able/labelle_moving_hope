@@ -43,6 +43,7 @@ export default hopeTheme({
       // only active in `/guide/`
     }
   ],
+
   
   favicon: "/assets/icon/favicon.ico",
 

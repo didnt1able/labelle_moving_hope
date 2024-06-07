@@ -65,8 +65,9 @@ hint: false
  <meta name="keywords" content="hiring movers, professional packing services, relocation planning">
  </div>
 
-
+<div class=flexbox>
 <speedy></speedy>
+</div>
 
 <script setup>
 import speedy from "@source/components/speedy.vue"

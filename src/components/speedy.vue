@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
   position: relative;
   display: block;
-  width: 600px;
+  width: flex;
   height: 250px;
   overflow: hidden;
   border-bottom: 3px solid #fff;
