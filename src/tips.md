@@ -25,7 +25,7 @@ hint: false
 
 ---
 
- <a href="https://moversville.com/bwhen-to-start-packing-for-a-move">When To Start Packing For A M(Week-By-Week Guide)</a>  
+ <a href="https://moversville.com/bwhen-to-start-packing-for-a-move">When To Start Packing For A Move(Week-By-Week Guide)</a>  
   <br></br>
  <a href="https://www.moving.com/moving-boxes/packing-calculator.asp">Moving Boxes Calculator</a>         
   <br></br>
