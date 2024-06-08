@@ -289,7 +289,6 @@ export default {
 <style scoped>
 
 
-/* Styles for the fieldsets */
 /* Styles for the fieldset */
 fieldset {
     padding: 2px;
