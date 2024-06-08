@@ -191,8 +191,11 @@
         We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
     -->
     <input type="hidden" name="pageHistory" value="0">
+    <div class="button-container">
 
     <input class="btn btn-primary" type="submit" value="Submit">
+</div>
+
 </form>
 </template>
 
@@ -284,27 +287,25 @@ export default {
 </script>
 
 <style scoped>
-/* Styles for the form */
-#bootstrapForm {
-    width: 100%;
-    padding: 20px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-}
+
 
 /* Styles for the fieldsets */
+/* Styles for the fieldset */
 fieldset {
-    border: 1px solid #ddd;
-    padding: 10px;
+    padding: 2px;
     margin-bottom: 20px;
+    border: 2px solid var(--color-bg);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--color-primary);
 }
 
 /* Styles for the legends */
 legend {
     font-size: 1.2em;
     margin-bottom: 10px;
+    padding: 0 10px;
+    font-weight: bold;
+    color: var(--color-primary);
 }
 
 /* Styles for the form groups */
@@ -312,52 +313,90 @@ legend {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 /* Styles for the form controls */
 .form-control {
     width: 100%;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    resize: none;
-    display: flex;
-    flex-direction: column;
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
     box-sizing: border-box;
+    font-size: 1em;
+    color: var(--color-bg);
+    background-color: var(--color-primary);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.25);
+    outline: none;
 }
 
 /* Styles for the radio buttons */
 .radio {
+    display: flex;
+    align-items: center;
     margin-bottom: 10px;
 }
 
 /* Styles for the radio labels */
 .radio label {
     font-size: 1em;
-    margin-left: 5px;
+    margin-left: 8px;
+    color: var(--color-bg);
+    cursor: pointer;
 }
 
+.radio input[type="radio"] {
+    margin-right: 5px;
+}
+
+
 /* Styles for the submit button */
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px; /* Optional: Adds some padding around the container */
+    
+}
+
 .btn {
-    padding: 10px 20px;
+    padding: 15px 30px; /* Increased padding for a larger button */
     background-color: #007bff;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 18px; /* Increased font size */
+    font-weight: 600;
 }
 
 .btn:hover {
     background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.btn:active {
+    background-color: #004085;
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Responsive styles for tablets */
 @media (max-width: 1024px) {
-    #bootstrapForm {
-        padding: 15px;
-    }
+    
 
     .form-control {
         padding: 15px;
@@ -370,9 +409,7 @@ legend {
 
 /* Responsive styles for mobile devices */
 @media (max-width: 768px) {
-    #bootstrapForm {
-        padding: 10px;
-    }
+    
 
     .form-control {
         padding: 10px;
