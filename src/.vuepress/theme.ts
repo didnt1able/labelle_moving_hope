@@ -72,7 +72,7 @@ export default hopeTheme({
    // },
 
     components: {
-      components: ["Badge", "VPCard", "Notice"],
+      components: ["Badge", "VPCard", "Notice", "SiteInfo"],
     },
 
     // All features are enabled for demo, only preserve features you need here
