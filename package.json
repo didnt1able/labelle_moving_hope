@@ -18,6 +18,8 @@
     "vuepress-theme-hope": "2.0.0-rc.48"
   },
   "dependencies": {
+    "bun": "^1.1.12",
+    "ls": "^0.2.1",
     "mathjax-full": "^3.2.2",
     "pnpm": "^9.2.0"
   }
