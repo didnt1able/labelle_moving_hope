@@ -289,9 +289,10 @@ export default {
 <style scoped>
 
 
+/* Styles for the fieldsets */
 /* Styles for the fieldset */
 fieldset {
-    padding: 2px;
+    padding: 15px;
     margin-bottom: 20px;
     border: 2px solid var(--color-bg);
     border-radius: 8px;
@@ -301,7 +302,7 @@ fieldset {
 /* Styles for the legends */
 legend {
     font-size: 1.2em;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding: 0 10px;
     font-weight: bold;
     color: var(--color-primary);
@@ -318,9 +319,9 @@ legend {
 /* Styles for the form controls */
 .form-control {
     width: 100%;
-    padding: 5px;
-    border: 2px solid #ddd;
-    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     box-sizing: border-box;
     font-size: 1em;
     color: var(--color-bg);
