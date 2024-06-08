@@ -7,7 +7,6 @@ category:
 tag:
   - Tips
 
-sidebar: true
 
 breadcrumb: false
 pageInfo: false
@@ -24,44 +23,14 @@ hint: false
 
 
 ---
-<div class="vp-card-container">
-
-<VPCard
-  title="When To Start Packing For A Move(Week-By-Week Guide)"
-  desc=" Discover the ultimate packing timeline for a stress-free move! Learn how to prepare your home, sort through belongings, and pack efficiently with our week-by-week guide. Get expert tips on how to avoid common packing mistakes and make your relocation smoother."
-  link="https://moversville.com/blog/when-to-start-packing-for-a-move"
-  background="rgba(0, 0, 255, 0.149)"
-  icon="fa-solid fa-box"
-/>
-<meta name="keywords" content="packing for a move, moving timeline, relocation planning">
 
 
-<VPCard
-  title="Moving Boxes Calculator"
-  desc=" Plan your move with precision using our Moving Boxes Calculator! Simply input your items, room sizes, and other details to receive a personalized box count. No more guessing or overspending on boxes you might not need."
-  link="https://www.moving.com/moving-boxes/packing-calculator.asp"
-  background="rgba(0, 0, 255, 0.149)"
-  icon="fa-solid fa-box"
-/>
-<meta name="keywords" content="moving boxes calculator, packing supplies, relocation planning">
+## Who to notify when moving – change of address checklist
+### Keep track of who to notify when you move
 
-<meta name="keywords" content="moving checklist, relocation planning, notification list">
-
-<VPCard
-  title="Should You Hire Professional Packers?"
-  desc="Weigh the pros and cons of hiring professional packers! Learn about the benefits, costs, and potential drawbacks to help you make an informed decision that suits your relocation needs and budget."
-  link="https://www.moving.com/tips/pros-cons-hiring-professional-packers/"
-  background="rgba(0, 0, 255, 0.149)"
-  icon="fa-solid fa-box"
-/>
- <meta name="keywords" content="hiring movers, professional packing services, relocation planning">
- </div>
-
-
-# Who to notify when moving – change of address checklist
-## Keep track of who to notify when you move
-
+::: tip Remember
 Moving to a new home can be a very exciting experience and there are many details to consider. Planning ahead and being well prepared can help make that transition go as smoothly as possible. The following list will help you keep track of who you need to notify in the event of a change of address.
+:::
 
 ### **Personal contacts**
 A good trick to ensure you reach all your contacts is to cross check through your contact list in your mobile device or your name and address book.
