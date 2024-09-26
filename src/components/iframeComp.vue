@@ -34,7 +34,7 @@
     <fieldset>
         <legend for="1738901855">Moving Date</legend>
         <div class="form-group">
-            <input type="date" id="839232848_date" placeholder="2024-03-10" class="form-control" >
+            <input type="date" id="839232848_date" v-model="dateField" placeholder="2024-03-10" class="form-control" >
         </div>
     </fieldset>
 
@@ -43,7 +43,7 @@
     <fieldset>
         <legend for="1724140824">Time of Day</legend>
         <div class="form-group">
-            <input type="time" id="2146346979" placeholder="6:36:12 p.m." class="form-control" >
+            <input type="time" id="2146346979" v-model="timeField" placeholder="6:36:12 p.m." class="form-control" >
         </div>
     </fieldset>
 
@@ -287,6 +287,15 @@ export default {
 </script>
 
 <style scoped>
+/* Styles for the form */
+#bootstrapForm {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
 
 
 /* Styles for the fieldsets */
@@ -296,7 +305,7 @@ fieldset {
     margin-bottom: 20px;
     border: 2px solid var(--color-bg);
     border-radius: 8px;
-    box-shadow: 0 2px 4px var(--color-primary);
+    box-shadow: 0 2px 4px var(--color-bg);
 }
 
 /* Styles for the legends */
@@ -396,7 +405,9 @@ legend {
 
 /* Responsive styles for tablets */
 @media (max-width: 1024px) {
-    
+    #bootstrapForm {
+        width: 80%;
+    }
 
     .form-control {
         padding: 15px;
@@ -409,7 +420,9 @@ legend {
 
 /* Responsive styles for mobile devices */
 @media (max-width: 768px) {
-    
+    #bootstrapForm {
+        width: 80%;
+    }
 
     .form-control {
         padding: 10px;
