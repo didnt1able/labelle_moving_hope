@@ -1,52 +1,43 @@
 // place your custom styles here
-.phone { 
+.phone {
     background: #7101E3;
-    color: #ffffff; 
+    color: #ffffff;
 
     &:hover {
-        background: linear-gradient(to bottom, lighten(#5000a0, 10%), #5000a0);
+        background: linear-gradient(to bottom, #5000a0, #5000a0);
         animation: popout 0.3s ease;
-        @keyframes popout {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
-        }
-
-    } 
-}
-
-.facebook { 
-    background: #0165E1;
-    color: #ffffff; 
-
-    &:hover {
-        background: linear-gradient(to bottom, lighten(#0165E1, 10%), #0165E1);
-        animation: popout 0.3s ease;
-        @keyframes popout {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
-        }
-
-    } 
-}
-
-.email { 
-    background: #9e231f;
-    color: #ffffff; 
-
-    &:hover {
-        background: linear-gradient(to bottom, lighten(#9e231f, 10%), #9e231f);
-        animation: popout 0.3s ease;
-        @keyframes popout {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
-        }
-
-        
     }
-    
-    
- 
+}
+
+.facebook {
+    background: #0165E1;
+    color: #ffffff;
+
+    &:hover {
+        background: linear-gradient(to bottom, #0165E1, #0165E1);
+        animation: popout 0.3s ease;
+    }
+}
+
+.email {
+    background: #9e231f;
+    color: #ffffff;
+
+    &:hover {
+        background: linear-gradient(to bottom, #9e231f, #9e231f);
+        animation: popout 0.3s ease;
+    }
+}
+
+/* Keyframes animation */
+@keyframes popout {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
