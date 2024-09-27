@@ -61,12 +61,8 @@ export default hopeTheme({
     mdEnhance: {
       align: true,
       attrs: true,
-      codetabs: true,
       component: true,
       demo: true,
-      figure: true,
-      imgLazyload: true,
-      imgSize: true,
       include: true,
       mark: true,
       stylize: [
@@ -84,10 +80,7 @@ export default hopeTheme({
       ],
       sub: true,
       sup: true,
-      tabs: true,
       vPre: true,
-      alert: true,
-      hint: true,
 
       
     
@@ -129,6 +122,9 @@ export default hopeTheme({
 
       // install sandpack-vue3 before enabling it
       // sandpack: true,
+    },
+    markdownTab: {
+      tabs: true,
     },
 
     // install @vuepress/plugin-pwa and uncomment these if you want a PWA

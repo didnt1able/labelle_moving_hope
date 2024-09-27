@@ -8,17 +8,18 @@
     "docs:build": "vuepress-vite build src",
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",
     "docs:dev": "vuepress-vite dev src",
-    "docs:update-package": "bun dlx vp-update"
+    "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.13",
-    "@vuepress/plugin-notice": "2.0.0-rc.34",
+    "@vuepress/bundler-vite": "2.0.0-rc.15",
     "vue": "^3.5.9",
-    "vuepress": "2.0.0-rc.13",
-    "vuepress-theme-hope": "2.0.0-rc.48"
+    "vuepress": "2.0.0-rc.15",
+    "vuepress-theme-hope": "2.0.0-rc.56"
   },
   "dependencies": {
-    "bun": "^1.1.29",
+    "@vuepress/plugin-markdown-image": "2.0.0-rc.47",
+    "@vuepress/plugin-markdown-tab": "2.0.0-rc.47",
+    "@vuepress/plugin-redirect": "2.0.0-rc.51",
     "ls": "^0.2.1",
     "mathjax-full": "^3.2.2"
   },
