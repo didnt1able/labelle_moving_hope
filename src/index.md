@@ -84,11 +84,7 @@ highlights:
         icon: school
         details: Efficient moving solutions for students.
         link: /prices.html
-              <a 
-              <div class=flexbox>
-               <speedy></speedy>
-               </div>
-               </a>
+             
 
 
   # - header: Improved layouts
@@ -187,6 +183,3 @@ highlights:
 copyright: © 2024 Labelle Moving
 footer: <a href="tel:613-295-8577">613-295-8577</a> <br></br> <a href="mailto:info@labellemoving.com">info@labellemoving.com</a>
 ---
-<script setup>
-import speedy from "@source/components/speedy.vue"
-</script>

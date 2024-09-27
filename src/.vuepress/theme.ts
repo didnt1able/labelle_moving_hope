@@ -54,13 +54,14 @@ export default hopeTheme({
    // },
 
     components: {
-      components: ["Badge", "VPCard", "Notice", "SiteInfo"],
+      components: ["Badge", "VPCard", "Notice", "SiteInfo", "VPBanner"],
     },
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
       attrs: true,
+      components: true,
       component: true,
       demo: true,
       include: true,
@@ -127,6 +128,9 @@ export default hopeTheme({
       tabs: true,
     },
 
+    markdownHint: {
+      alert: true,
+    },
     // install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {
     //   favicon: "/favicon.ico",

@@ -28,45 +28,62 @@ hint: false
 ::: important 1 Hour Surcharge Applies 
 :::
 
- Moving Prices <Badge text="With" type="tip"/> Truck
 
-::: tabs#With Truck
 
-@tab 1 Mover
 
-90$/h
 
-@tab 2 Movers
 
-120$/h
-
-@tab 3 Movers
-
-150$/h
-
-@tab 4 Movers
-
-180$/h
-
-:::
- Moving Prices <Badge text="Without" type="danger"/> Truck
-
-::: tabs#With Truck
-
-@tab 1 Mover
-
-50$/h
-
-@tab 2 Movers
-
-80$/h
-
-@tab 3 Movers
-
-110$/h
-
-@tab 4 Movers
-
-140$/h
-
-:::
+<VPBanner
+  title="Full Move"
+  content="Listed below are our prices per mover with truck"
+  logo="/assets/image/truck01.svg"
+  :actions='[
+    {
+      text: "$90.00/Hr",
+      link:"",
+      type: "primary",
+    },
+    {
+      text: "$120.00/Hr",
+      link: "",
+      type: "primary",
+    },
+    {
+      text: "$150.00/Hr",
+      link: "",
+      type: "primary",
+    },
+    {
+      text: "$180.00/Hr",
+      link: "",
+      type: "primary",
+    },
+  ]'
+/>
+<VPBanner
+  title="Moving Help"
+  content="Listed below are our prices per mover without truck"
+  logo="/assets/image/trolley.svg"
+  :actions='[
+    {
+      text: "$50.00/Hr",
+      link:"",
+      type: "default",
+    },
+    {
+      text: "$80.00/Hr",
+      link: "",
+      type: "default",
+    },
+    {
+      text: "$110.00/Hr",
+      link: "",
+      type: "default",
+    },
+    {
+      text: "$140.00/Hr",
+      link: "",
+      type: "default",
+    },
+  ]'
+/>
