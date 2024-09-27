@@ -8,24 +8,18 @@ importers:
 
   .:
     dependencies:
-      '@vuepress/plugin-markdown-image':
-        specifier: 2.0.0-rc.47
-        version: 2.0.0-rc.47(markdown-it@14.1.0)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.7.3)(jiti@1.21.0)(sass@1.79.3)(yaml@2.5.1))(vue@3.5.9))
-      '@vuepress/plugin-markdown-tab':
-        specifier: 2.0.0-rc.47
-        version: 2.0.0-rc.47(markdown-it@14.1.0)(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.7.3)(jiti@1.21.0)(sass@1.79.3)(yaml@2.5.1))(vue@3.5.9))
       '@vuepress/plugin-redirect':
         specifier: 2.0.0-rc.51
         version: 2.0.0-rc.51(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.7.3)(jiti@1.21.0)(sass@1.79.3)(yaml@2.5.1))(vue@3.5.9))
-      bun:
-        specifier: ^1.1.29
-        version: 1.1.29
       ls:
         specifier: ^0.2.1
         version: 0.2.1
       mathjax-full:
         specifier: ^3.2.2
         version: 3.2.2
+      pnpm:
+        specifier: ^9.11.0
+        version: 9.11.0
     devDependencies:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.15
@@ -446,46 +440,6 @@ packages:
   '@nodelib/fs.walk@1.2.8':
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
-
-  '@oven/bun-darwin-aarch64@1.1.29':
-    resolution: {integrity: sha512-Z8WnrXoAXg6ENU6z+Mil94oipMBMliJIj4XWWqjNC33/ZGPqMdPT5MbFQjbdHjxe5bRBW/aHaMU3G35fGx9Seg==}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@oven/bun-darwin-x64-baseline@1.1.29':
-    resolution: {integrity: sha512-B+zKlJR+3ANPDU+vNjvXaqgB63hYcCk16/k45hiInvIsDXfSdDn4+LMHwZTFdfUWTCGbNMFg9u4bZCtK0nhMDw==}
-    cpu: [x64]
-    os: [darwin]
-
-  '@oven/bun-darwin-x64@1.1.29':
-    resolution: {integrity: sha512-tDHDR+OWLCKEP0xE8IGCWRxSsxO5tr3rvyrSzy6CXYkoWPz66kODbtbGfWl8HSwunrQxJKnE2L9LWX2Eiz3Cpw==}
-    cpu: [x64]
-    os: [darwin]
-
-  '@oven/bun-linux-aarch64@1.1.29':
-    resolution: {integrity: sha512-BuV2Gni+FaMo1r7+3vLjefQYtQcWE01zJJ4zCjyzikP1L4r6PUaLeJyKXbqF6sIR0cLjG6LWj66EGskakDyvWA==}
-    cpu: [arm64]
-    os: [linux]
-
-  '@oven/bun-linux-x64-baseline@1.1.29':
-    resolution: {integrity: sha512-tQhm1SDyymBvc2L3zIN7FI+sI3g9gxavDYuvL/Lz17nEk1oqP5DFE2lF9QWJMDdQL3XQKH/drI27yNpfPHgAPw==}
-    cpu: [x64]
-    os: [linux]
-
-  '@oven/bun-linux-x64@1.1.29':
-    resolution: {integrity: sha512-JVLiTafybuOFIeC80mZEzHdkOCCzlOtOV5zCbvYAIb7D3SM64fNBwrR0dvDkJTQtsjbwt8YeVFN2YRSI/wlFkw==}
-    cpu: [x64]
-    os: [linux]
-
-  '@oven/bun-windows-x64-baseline@1.1.29':
-    resolution: {integrity: sha512-+QWT8Kp+3Sl54QUa6uBsDzQlX11thMMVAw+yUwSRU4Y5FVSN8RPuxhN8ijJ1QGm1KOYA2sCI6V+3lyNMNmRvAA==}
-    cpu: [x64]
-    os: [win32]
-
-  '@oven/bun-windows-x64@1.1.29':
-    resolution: {integrity: sha512-d930+pSkNVHPJJBryIh1gsAKk7lp1HzcktFe0bfxwmpHwjj4BiVfMjU1YaCnsdWKNs2Nv1Y1PLVDNyUCQVfo0Q==}
-    cpu: [x64]
-    os: [win32]
 
   '@rollup/rollup-android-arm-eabi@4.22.4':
     resolution: {integrity: sha512-Fxamp4aEZnfPOcGA8KSNEohV8hX7zVHOemC8jVBoBUHu5zpJK/Eu3uJwt6BMgy9fkvzxDaurgj96F/NiLukF2w==}
@@ -955,12 +909,6 @@ packages:
   browserslist@4.24.0:
     resolution: {integrity: sha512-Rmb62sR1Zpjql25eSanFGEhAxcFwfA1K0GuQcLoaJBAcENegrQut3hYdhXFF1obQfiDyqIW/cLM5HSJ/9k884A==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-
-  bun@1.1.29:
-    resolution: {integrity: sha512-SKhpyKNZtgxrVel9ec9xon3LDv8mgpiuFhARgcJo1YIbggY2PBrKHRNiwQ6Qlb+x3ivmRurfuwWgwGexjpgBRg==}
-    cpu: [arm64, x64]
-    os: [darwin, linux, win32]
     hasBin: true
 
   cac@6.7.14:
@@ -1506,6 +1454,11 @@ packages:
   pngjs@5.0.0:
     resolution: {integrity: sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw==}
     engines: {node: '>=10.13.0'}
+
+  pnpm@9.11.0:
+    resolution: {integrity: sha512-CiA/+u1aP2MkLNBkyPtYkjZsED4ygHkxj3gGLyTqjJ1QvGpHqjVnyr79gk0XDnj6J0XtHxaxMuFkNhRrdojxmw==}
+    engines: {node: '>=18.12'}
+    hasBin: true
 
   postcss-load-config@6.0.1:
     resolution: {integrity: sha512-oPtTM4oerL+UXmx+93ytZVN82RrlY/wPUV8IeDxFrzIjXOLF1pN+EmKPLbubvKHT2HC20xXsCAH2Z+CKV6Oz/g==}
@@ -2285,30 +2238,6 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.17.1
 
-  '@oven/bun-darwin-aarch64@1.1.29':
-    optional: true
-
-  '@oven/bun-darwin-x64-baseline@1.1.29':
-    optional: true
-
-  '@oven/bun-darwin-x64@1.1.29':
-    optional: true
-
-  '@oven/bun-linux-aarch64@1.1.29':
-    optional: true
-
-  '@oven/bun-linux-x64-baseline@1.1.29':
-    optional: true
-
-  '@oven/bun-linux-x64@1.1.29':
-    optional: true
-
-  '@oven/bun-windows-x64-baseline@1.1.29':
-    optional: true
-
-  '@oven/bun-windows-x64@1.1.29':
-    optional: true
-
   '@rollup/rollup-android-arm-eabi@4.22.4':
     optional: true
 
@@ -2969,17 +2898,6 @@ snapshots:
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.24.0)
 
-  bun@1.1.29:
-    optionalDependencies:
-      '@oven/bun-darwin-aarch64': 1.1.29
-      '@oven/bun-darwin-x64': 1.1.29
-      '@oven/bun-darwin-x64-baseline': 1.1.29
-      '@oven/bun-linux-aarch64': 1.1.29
-      '@oven/bun-linux-x64': 1.1.29
-      '@oven/bun-linux-x64-baseline': 1.1.29
-      '@oven/bun-windows-x64': 1.1.29
-      '@oven/bun-windows-x64-baseline': 1.1.29
-
   cac@6.7.14: {}
 
   camelcase@5.3.1: {}
@@ -3557,6 +3475,8 @@ snapshots:
   picomatch@2.3.1: {}
 
   pngjs@5.0.0: {}
+
+  pnpm@9.11.0: {}
 
   postcss-load-config@6.0.1(jiti@1.21.0)(postcss@8.4.47)(yaml@2.5.1):
     dependencies:

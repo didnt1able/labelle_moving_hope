@@ -17,11 +17,10 @@
     "vuepress-theme-hope": "2.0.0-rc.56"
   },
   "dependencies": {
-    "@vuepress/plugin-markdown-image": "2.0.0-rc.47",
-    "@vuepress/plugin-markdown-tab": "2.0.0-rc.47",
     "@vuepress/plugin-redirect": "2.0.0-rc.51",
     "ls": "^0.2.1",
-    "mathjax-full": "^3.2.2"
+    "mathjax-full": "^3.2.2",
+    "pnpm": "^9.11.0"
   },
   "engines": {
     "npm": "^10.2.4",
