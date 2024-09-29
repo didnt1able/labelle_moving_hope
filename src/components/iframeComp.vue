@@ -289,8 +289,7 @@ export default {
 <style scoped>
 /* Styles for the form */
 #bootstrapForm {
-    width: 100%;
-    padding: 20px;
+    padding: 10px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -301,8 +300,8 @@ export default {
 /* Styles for the fieldsets */
 /* Styles for the fieldset */
 fieldset {
-    padding: 15px;
-    margin-bottom: 20px;
+    padding: 2px;
+    margin-bottom: 10px;
     border: 2px solid var(--color-bg);
     border-radius: 8px;
     box-shadow: 0 2px 4px var(--color-bg);
@@ -311,8 +310,8 @@ fieldset {
 /* Styles for the legends */
 legend {
     font-size: 1.2em;
-    margin-bottom: 15px;
-    padding: 0 10px;
+    margin-bottom: 10px;
+    padding: 0 5px;
     font-weight: bold;
     color: var(--color-primary);
 }
@@ -403,33 +402,6 @@ legend {
 }
 
 
-/* Responsive styles for tablets */
-@media (max-width: 1024px) {
-    #bootstrapForm {
-        width: 80%;
-    }
 
-    .form-control {
-        padding: 15px;
-    }
-
-    .btn {
-        padding: 7px 15px;
-    }
-}
-
-/* Responsive styles for mobile devices */
-@media (max-width: 768px) {
-    #bootstrapForm {
-        width: 80%;
-    }
-
-    .form-control {
-        padding: 10px;
-    }
-
-    .btn {
-        padding: 5px 10px;
-    }
-}
 </style>
+

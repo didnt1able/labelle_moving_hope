@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.15",
+    "daisyui": "^4.12.10",
     "sass-embedded": "^1.79.3",
     "vue": "^3.5.9",
     "vuepress": "2.0.0-rc.15",

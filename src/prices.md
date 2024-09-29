@@ -33,9 +33,11 @@ hint: false
 
 
 
-<VPBanner
+  <VPBanner
   title="Full Move"
   content="Listed below are our prices per mover with truck"
+  background= "var(--bg-10)"
+  color= "var(--banner-text)"
   logo="/assets/image/truck01.svg"
   :actions='[
     {
@@ -63,6 +65,8 @@ hint: false
 <VPBanner
   title="Moving Help"
   content="Listed below are our prices per mover without truck"
+  background= "var(--bg-10)"
+  color= "var(--banner-text)"
   logo="/assets/image/trolley.svg"
   :actions='[
     {
@@ -87,3 +91,4 @@ hint: false
     },
   ]'
 />
+

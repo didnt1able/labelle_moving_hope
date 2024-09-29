@@ -11,7 +11,7 @@ export default hopeTheme({
   hostname: "https://labellemoving.com",
 
   author: {
-    name: "Jonathan Lefebvre",
+    name: "Labelle Moving",
     url: "https://labellemoving.com",
   },
 

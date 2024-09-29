@@ -1,32 +1,32 @@
 ---
 home: true
 icon: home
-title: Labelle Moving
+title: "#1 Movers in Ottawa"
 heroImage: "/assets/icon/icon.webp"
 bgImage: /bg/6-light.svg
 bgImageDark: /bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: Labelle Moving
-tagline: Offering Comprehensive Moving Solutions for Ottawa & The Surrounding Area
+heroText: Labelle Moving #
+tagline: Offering Comprehensive Moving Solutions for Ottawa & The Surrounding Area #
 actions:
-  - text: Email
+  - text: Email #
     icon: envelope
     link: mailto:info@labellemoving.com
     type: email
 
-  - text: Phone
+  - text: Phone #
     icon: phone
     link: tel:613-295-8577
     type: phone
 
-  - text: Facebook
+  - text: Facebook #
     icon: fab fa-facebook
     link: https://www.facebook.com/LabelleMoving
     type: facebook
 
 highlights:
-  - header: Locally Owned & Operated 
+  - header: Locally Owned & Operated #
     image: /assets/image/mapleleaf.svg
     bgImage: /bg/3-light.svg
     bgImageDark: /bg/3-dark.svg
@@ -183,3 +183,5 @@ highlights:
 copyright: © 2024 Labelle Moving
 footer: <a href="tel:613-295-8577">613-295-8577</a> <br></br> <a href="mailto:info@labellemoving.com">info@labellemoving.com</a>
 ---
+
+  

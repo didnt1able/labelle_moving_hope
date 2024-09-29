@@ -40,4 +40,27 @@
     100% {
         transform: scale(1);
     }
+    
 }
+:root {
+
+    --bg-10: url("/bg/10-light.svg")
+      no-repeat center/cover;
+    --bg-10-inverse: url("/bg/10-dark.svg")
+      no-repeat center/cover;
+    --bg-6: url("/bg/6-dark.svg") no-repeat
+      center/cover;
+    --bg-6-inverse: url("/bg/6-light.svg")
+      no-repeat center/cover;
+  }
+  [data-theme="dark"] {
+    
+    --bg-10: url("/bg/10-dark.svg") no-repeat
+      center/cover;
+    --bg-10-inverse: url("/bg/10-light.svg")
+      no-repeat center/cover;
+    --bg-6: url("/bg/6-dark.svg") no-repeat
+      center/cover;
+    --bg-6-inverse: url("/bg/6-light.svg")
+      no-repeat center/cover;
+  }
