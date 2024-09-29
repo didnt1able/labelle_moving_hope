@@ -21,7 +21,8 @@
     "@vuepress/plugin-redirect": "2.0.0-rc.51",
     "ls": "^0.2.1",
     "mathjax-full": "^3.2.2",
-    "pnpm": "^9.11.0"
+    "pnpm": "^9.11.0",
+    "vuepress-plugin-remove-html-extension": "^1.13.0"
   },
   "engines": {
     "npm": "^10.2.4",

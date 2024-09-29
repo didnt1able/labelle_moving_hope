@@ -20,6 +20,9 @@ importers:
       pnpm:
         specifier: ^9.11.0
         version: 9.11.0
+      vuepress-plugin-remove-html-extension:
+        specifier: ^1.13.0
+        version: 1.13.0
     devDependencies:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.15
@@ -1974,6 +1977,10 @@ packages:
         optional: true
       sass-loader:
         optional: true
+
+  vuepress-plugin-remove-html-extension@1.13.0:
+    resolution: {integrity: sha512-ef82agY8Yo2H34rSzIQ+ASimwaaun6mFNvAHzQJUpCfjlktpqxwwLALx3luocexoF8TRD0LdS4IM8Ccv+c6Lsw==}
+    engines: {node: ^16.0.0 || >=18.0.0}
 
   vuepress-shared@2.0.0-rc.54:
     resolution: {integrity: sha512-Z+i/U6VtKteW5LhT3rvyGUjbhcimVf16QDIPw/g2kE6w94z332fcm/jlaokjFDBUiKRRSrbu74QSYZnwYGUdMQ==}
@@ -4047,6 +4054,13 @@ snapshots:
     transitivePeerDependencies:
       - '@vue/composition-api'
       - markdown-it
+      - typescript
+
+  vuepress-plugin-remove-html-extension@1.13.0:
+    dependencies:
+      '@vuepress/core': 2.0.0-rc.15
+    transitivePeerDependencies:
+      - supports-color
       - typescript
 
   vuepress-shared@2.0.0-rc.54(vuepress@2.0.0-rc.15(@vuepress/bundler-vite@2.0.0-rc.15(@types/node@22.7.3)(jiti@1.21.0)(sass-embedded@1.79.3)(sass@1.79.3)(yaml@2.5.1))(vue@3.5.9)):

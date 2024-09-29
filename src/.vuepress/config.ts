@@ -1,10 +1,12 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.ts";
+import { removeHtmlExtensionPlugin } from 'vuepress-plugin-remove-html-extension'
+
 //import { noticePlugin } from '@vuepress/plugin-notice'
 
 export default defineUserConfig({
   base: "/",
-
+  plugins: [removeHtmlExtensionPlugin()],
   lang: "en-US",
   title: "Labelle Moving",
   description: "Offering Comprehensive Moving Solutions for Ottawa & The Surrounding Area",
