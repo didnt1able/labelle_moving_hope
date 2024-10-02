@@ -70,22 +70,22 @@ hint: false
     {
       text: "$50.00/Hr",
       link:"",
-      type: "default",
+      type: "primary",
     },
     {
       text: "$80.00/Hr",
       link: "",
-      type: "default",
+      type: "primary",
     },
     {
       text: "$110.00/Hr",
       link: "",
-      type: "default",
+      type: "primary",
     },
     {
       text: "$140.00/Hr",
       link: "",
-      type: "default",
+      type: "primary",
     },
   ]'
 />
